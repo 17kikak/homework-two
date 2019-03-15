@@ -2,7 +2,7 @@ class CreateTvshows < ActiveRecord::Migration[5.1]
   def change
     create_table :tvshows do |t|
       t.string :name
-      t.string :type
+      t.string :type_of_show
       t.integer :number_of_seasons
       t.date :start_date
       t.date :end_date
