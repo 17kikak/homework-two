@@ -1,0 +1,7 @@
+<h1>TV Shows</h1>
+
+<ul>
+  <% @tvshows.each do |tvshow| %>
+    <li> <%= tvshow.name %>, <%= tvshow.image_url %></li>
+  <% end %>
+</ul>
